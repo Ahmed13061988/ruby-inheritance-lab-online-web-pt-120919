@@ -7,12 +7,4 @@ class User
   end 
   
 
-
-
-
-
-
-
-
-
 end 
