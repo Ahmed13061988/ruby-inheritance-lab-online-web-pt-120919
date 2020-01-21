@@ -3,7 +3,7 @@ class Student < User
     @ind_students=ind_students
     @knowledge =[]
   end 
-  def learn ("")
+  def learn(string)
     @knowledge << learn 
   end 
   def knowledge
