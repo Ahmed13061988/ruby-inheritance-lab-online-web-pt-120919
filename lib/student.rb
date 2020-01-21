@@ -1,6 +1,6 @@
 class Student < User 
-  def initialize(ind_students,knowledge)
-    @ind_students=ind_students
+  attr_accessor :knowledge
+  def initialize
     @knowledge =[]
   end 
   def learn(string)
