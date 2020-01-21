@@ -1,5 +1,5 @@
 class Student < User 
-  def initialize(ind_students,@knowledge)
+  def initialize(ind_students,knowledge)
     @ind_students=ind_students
     @knowledge =[]
   end 
